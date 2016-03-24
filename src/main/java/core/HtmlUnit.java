@@ -28,8 +28,11 @@ public class HtmlUnit {
 			System.out.println("URL: \t\t\t" + url);
 			System.out.println("Title Expected: \t" + title_expected);
 			System.out.println("Title Actual: \t\t" + title_actual);
+			
+			System.out.println("Test Case Result: \t" + "FAILED");
 			System.out.println("Test Case Result: \t" + "FAILED");
 		}
+		
 		driver.quit();
 	}
 }
